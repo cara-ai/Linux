@@ -23,7 +23,32 @@ https://github.com/201853910/VMwareWorkstation/releases/download/16.0/VMware-wor
 
 1. 默认下载
 2. 确认在电脑中是否安装成功
-（网络和Internet-更改适配器选项-确认vmnet1 vmnet8是打开的状态）
+（网络和Internet-高级网络设置-更改适配器选项-确认vmnet1 vmnet8是打开的状态）
+快捷键Ctrl + R - 输入ncpa.cpl回车
+
+## 下载安装Linux系统发行版 Ubuntu
+https://releases.ubuntu.com/jammy/
+64-bit PC AMD64 sever install image
+
+打开VMware
+1. 创建新的虚拟机- 新規仮想マシン
+2. 选择典型（安装方便）- 標準
+3. 选择光盘镜像文件 会默认识别杠瞎子啊的Ubuntu
+4. 设置虚拟机名以及存放位置-默认即可
+5. 指定虚拟硬盘磁盘容量-40GB
+6. 可以对虚拟机做一些细微的设置 -暂时不需要 可以设置的有：
+   内存
+   处理器
+   新CD/DVD
+   网络适配器
+   USB控制器
+   声卡
+   打印机
+   显示器
+7. 自动安装虚拟机系统 10min左右
+8. 输入用户名和密码 回车 成功
+
+
 
 
 
